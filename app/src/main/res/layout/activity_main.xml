@@ -46,7 +46,7 @@
         android:onClick="addButtonClicked"
         android:text="Add" />
 
-    <EditText
+    <TextView
         android:id="@+id/buckesText"
         android:layout_width="239dp"
         android:layout_height="214dp"
@@ -59,11 +59,11 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:layout_marginBottom="24dp"
-        android:background="@color/colorAccent"
+        android:background="@android:color/holo_orange_dark"
         android:ems="10"
-        android:foreground="@android:color/holo_green_dark"
         android:inputType="textMultiLine"
-        android:textSize="14sp" />
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
 
     <TextView
         android:id="@+id/textView"
